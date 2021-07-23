@@ -6,10 +6,10 @@ To use the create_queries(pair) function, the data in pair must be of this shape
 	'triple_patterns': [ #list of bgp
 				[ #list of queries in each bgp
 					{ #one query
-						'subject': String,
+						'subject':   String,
 					   	'predicate': String, 
-					   	'object': String, 
-					   	'source': String #One of those values: 'M1' / 'M2' / 'M1 M2'
+					   	'object':    String, 
+					   	'source':    String 	#One of those values: 'M1' / 'M2' / 'M1 M2'
 					}
 				]
 			   ],
