@@ -1,5 +1,5 @@
 # create_queries
-To use the create_queries(pair) function, the data in pair must be of this shape:
+To use the create_queries(pair) function, the data in `pair` must be of this shape:
 
 ```
 {
@@ -17,3 +17,7 @@ To use the create_queries(pair) function, the data in pair must be of this shape
 	'name2': String		#name of the second source
 }
 ```
+
+This tool uses a local endpoint that needs to be setup with virtuoso in order to store rdf datasets.
+The datasets name shall be stored in graphs which names are the same as given in the `pair` data (name1 and name2).
+The queries created ask two graph everytime, and the datasets that wants to be tested need to be in two different graph.
