@@ -9,7 +9,7 @@ To use the create_queries(pair) function, the data in pair must be of this shape
 						'subject': String,
 					   	'predicate': String, 
 					   	'object': String, 
-					   	 'source': 'M1' / 'M2' / 'M1 M2'
+					   	'source': 'M1' / 'M2' / 'M1 M2'
 					}
 				]
 			   ],
